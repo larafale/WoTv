@@ -10,9 +10,9 @@ const store = configureStore()
 
 
 const Wrapper = () => (
-	<Provider store={store} >
-		<App color='red' />
-	</Provider>
+  <Provider store={store} >
+    <App color='red' />
+  </Provider>
 )
 
 AppRegistry.registerComponent('WoTv', () => Wrapper)
